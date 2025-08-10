@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace SydneyCoffee
 {
@@ -21,7 +21,7 @@ namespace SydneyCoffee
             String maxName = "";
 
             // Welcome message
-            Console.WriteLine("\t\t\t\tWelcome to use Sydney Coffee Program\n");
+            Console.WriteLine("\t\t\t\tWelcome to Sydney Coffee Sales Program\n");
 
             // Loop to get the inputs
             for (int i = 0; i < n; i++)
@@ -107,5 +107,6 @@ namespace SydneyCoffee
             Console.WriteLine(String.Format("The customer spending least is {0} ${1}", minName, min));
 
         }
+            Console.WriteLine("Thank you for using Sydney coffee');
     }
 }
